@@ -1,0 +1,33 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="~/Scripts/kendo/2017.2.621/jquery.min.js"></script>
+</head>
+<body>
+    <div> 
+        <form>
+            <input type="text" name="name" value="fname" id="fname" />
+
+            <input type="text" name="name" value="lname" id="lname" />
+            <input type="button" name="Submit" value="submit" onclick="myfunction()" />
+            <script>
+                function myfunction() {
+                    var var1 = $("#fname").val();
+
+                    var var2 = $("#lname").val();
+                    alert(var1 + var2);
+                }
+
+            </script>
+        </form>
+    </div>
+</body>
+</html>

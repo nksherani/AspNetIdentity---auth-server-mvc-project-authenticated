@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+  <siteMapNode title="Home" controller="Home" action="Index">
+    <siteMapNode title="Dashboard" controller="Home" action="Index"/>
+
+    <siteMapNode title ="BetaReports">
+      <siteMapNode title="Beta SKU" controller="Reports" action="BetaSkusReport"/>
+    </siteMapNode>
+   
+    <siteMapNode title="Reports">
+      <siteMapNode title="Geo Tracking" controller="RouteManagement" action="RouteSegment"/>
+      <siteMapNode title="Pictures Report" controller="Reports" action="PicturesReport"/>
+      <siteMapNode title="GPS Tracking Report" controller="Reports" action="GeoTrackingReport"/>
+      <siteMapNode title="Market Visit Summary Report" controller="Reports" action="MarketSurvey"/>
+      <siteMapNode title="Market Visit Master Data Report" controller="Reports" action="SurveyReport"/>
+      <siteMapNode title="Exception Reports">
+        <siteMapNode title="Services Report" controller="Reports" action="ServicesReport"/>
+        <siteMapNode title="Cooler Report" controller="Reports" action="CoolerReport"/>
+        <siteMapNode title="Daily Tracker Report" controller="Reports" action="DailyTracker"/>
+        <siteMapNode title="Comp Promo Report" controller="Reports" action="CompPromoReport"/>
+        <siteMapNode title="POSM Report" controller="Reports" action="POSMReport"/>
+        <siteMapNode title="SKUs Report" controller="Reports" action="SKUsReport"/>
+        <siteMapNode title="Action Report" controller="Reports" action="ActionReport"/>
+      </siteMapNode>
+      <siteMapNode title="Work With Reports">
+        <siteMapNode title="EDGE Report" controller="Reports" action="EDGEReport"/>
+        <siteMapNode title="8 Steps Score Report" controller="Reports" action="EightStepsScoreReport"/>
+        <siteMapNode title="Daily Tracker Work With Report" controller="Reports" action="DailyTrackerWorkWith"/>
+        <siteMapNode title="Daily Tracker Score" controller="Reports" action="DailyTrackerScore"/>
+        <siteMapNode title="Master Data Work With" controller="Reports" action="WWMasterData"/>
+        <siteMapNode title="Action Report " controller="Reports" action="WWActionReport"/>
+        <siteMapNode title="Summary Findings Report " controller="Reports" action="SummaryFindings"/>
+        <siteMapNode title="Day Tracker(Market Visit + Work With) Report " controller="Reports" action="DayTracker"/>
+
+
+      </siteMapNode>
+      <!-- <siteMapNode title="Monthly Customer Sales" controller="Reports" action="SalesTargetCustomer"/>
+      <siteMapNode title="Target vs Achievement" controller="Reports" action="SalesTargetReport"/>
+      <siteMapNode title="Sales Team Report" controller="Reports" action="SalesTeam"/>
+      <siteMapNode title="Inventory Activity" controller="Reports" action="InventoryActivity"/>
+      <siteMapNode title="Order Vs Execution" controller="Reports" action="OrderVsExecution"/>
+      <siteMapNode title="Zonal Sales Analysis" controller="Reports" action="ZonalSalesAnalysis"/>-->
+      <!--<siteMapNode title="Route Segment Management" controller="RouteManagement" action="RouteSegment"/>-->
+    </siteMapNode>
+    <siteMapNode title="Administration">
+      <siteMapNode title="User Management">
+        <siteMapNode title="Add User" controller="User" action="CreateUser"/>
+        <siteMapNode title="Manage Users" controller="User" action="UserManagement"/>
+      </siteMapNode>
+      <siteMapNode title="Roles Management" controller="RolesManagement" action="Index">
+      </siteMapNode>
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>
